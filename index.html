@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jacqui's Portfolio</title> 
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </head>
+    <body>
+    <!--About Section-->
+        <header>
+            <nav class="topnav" id="portfolioTopnav">
+            <a href="#about">About </a>
+            <a href="#skills">Skills </a>
+            <a href="#accomplishments">Accomplishments </a>
+            <a href="#contact">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fa fa-bars"></i></a>
+            </nav>
+        <h1>Jacqui Roots</h1>
+        </header>
+        <main>
+        <div id="aboutsection">
+            <figure>
+                <a href="https://www.linkedin.com/in/jacqueline-roots-57b2018a/" target="_blank"> <img src="C:\Users\jcqln\OneDrive - Queensland University of Technology\Documents\AIRS RIO Gred\Intro to Coding 2020\Portfolio\Graduation 2017.jpeg"
+                 width="163" height="240" alt="Masters of Medical Sonography, Graduation Ceremony"/></a>
+            </figure>
+            <h2 id="about" class="uppercase">About</h2>
+            <p>I am a PhD student at QUT in the Faculty of Health, Clinical Sciences, with my project 
+                focusing on using an advanced ultrasound technology called <strong>Shear 
+                Wave Elastography</strong> to evaluate the change in stiffness of tissue. This project will assess the spasticity of muscles in the acute stage post-stroke
+                and positively impact the occupation and physical therapy in their recover.
+                I am also a Senior Sonographer in a private 
+                medical imaging company where I am the chairperson of the Quality Assurance and Development Committee,
+                 as well as an <em>ASA MSK Special Interest Group</em> member.</p>
+            <br><br>
+            <h3 id="skills">Skills</h3>
+            <h4>Research Skills</h4>
+            <ul class="list">
+                <li>Literature reviews</li>
+                <li>Publons Academy for peer review</li>
+                <li>R Language data analysis</li>
+            </ul>
+            <h4>Interpersonal Skills</h4>
+            <ul class="list">
+                <li>Excpetional communication skills</li>
+                <li>Conflict resolution</li>
+                <li>Time management</li>
+                <li>Project management </li>
+            </ul>
+            <h4>Technical Skills</h4>
+            <ul class="list">
+                <li>Accredited Sonographer with 10 years experience</li>
+                <li>Competent on Canon, Philips, GE, Siemens</li>
+                <li>Tertiary and rural hospitals</li>
+                <li>Inhouse presentation organisation</li>
+                <li>Student Supervisor and tutor for all levels</li>
+            </ul>
+        </div>
+        <!--Accomplishments Section-->
+        <div id="accomplishmentsection">
+            <h2 id="accomplishments">Accomplishments</h2>
+            <table>
+                <tr>
+                    <th scope="col">Publications</th>
+                    <th scope="col">Awards</th>
+                    <th scope="col">Presentations</th>
+                </tr>
+                <tr>
+                    <td>Content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                </tr>
+            </table>
+
+            <h3>Coding Examples</h3>
+            <a href="quix.html">Take the Portfolio Quiz</a>
+        </div>
+        <!--Contact Section-->
+        <div id="contactsection">
+            <h2 id="contact" class="contactform">Contact</h2>
+            <!-- <a href="https://www.linkedin.com/in/jacqueline-roots-57b2018a/" target="_blank">LinkedIn </a> -->
+            <br><br>
+            <form>
+                <label for="name">*Name:</label>
+                <br>
+                <input type="text" name="name" id="name" value="Enter your name here" required>
+                <br><br>
+                <label for="email">*Email:</label>
+                <br>
+                <input type="text" name="email" id="email" required pattern=“[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$”>
+                <br><br>
+                <label for="mobile">Mobile (optional)</label>
+                <br>
+                <input type="text" name="mobile" id="mobile" pattern="[0-9]">
+                <br>
+                <label for="message">*Leave your message below:</label>
+                <br>
+                <textarea type="text" name="message" id="message*" rows="5" cols="30" required></textarea> 
+                <br><br>
+                <input type="submit" >
+            </form>
+        </div>
+        </main>
+        <script src="./nav.js"></script>
+    </body>
+</html>
